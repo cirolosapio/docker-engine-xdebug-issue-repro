@@ -1,0 +1,9 @@
+services:
+  php:
+    build:
+      context: .
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - .:/var/www/html:rw
+      - ./xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini:ro
