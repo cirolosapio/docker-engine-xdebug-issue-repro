@@ -2,4 +2,4 @@
 
 xdebug_info();
 
-echo 'ciao';
+echo 'ciao' . PHP_EOL;

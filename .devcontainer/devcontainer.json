@@ -1,0 +1,12 @@
+{
+  "dockerComposeFile": "compose.yml",
+  "workspaceFolder": "/var/www/html",
+  "service": "php",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "xdebug.php-debug"
+      ]
+    }
+  }
+}
